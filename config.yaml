@@ -2,22 +2,13 @@ baseurl: https://mindcpu.github.io
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: MINDCPU
 
 languages:
   en:
     languageName: English
-    title: Example Site
+    title: MINDCPU
     weight: 1
-  zh-cn:
-    languageName: 中文
-    title: 演示站点
-    weight: 2
-  ar:
-    languageName: عربي
-    languagedirection: rtl
-    title: موقع تجريبي
-    weight: 3
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -45,7 +36,7 @@ params:
   favicon: /favicon.ico
 
   footer:
-    since: 2020
+    since: 2022
     customText:
 
   dateFormat:
@@ -53,8 +44,8 @@ params:
     lastUpdated: Jan 02, 2006 15:04 MST
 
   sidebar:
-    emoji: 🍥
-    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    emoji:
+    subtitle: Better than today.
     avatar:
       enabled: true
       local: true
@@ -149,13 +140,7 @@ params:
   widgets:
     homepage:
       - type: search
-      - type: archives
-        params:
-          limit: 5
       - type: categories
-        params:
-          limit: 10
-      - type: tag-cloud
         params:
           limit: 10
     page:
@@ -206,6 +191,12 @@ menu:
       url: https://twitter.com
       params:
         icon: brand-twitter
+
+    - identifier: tool
+      name: tool
+      url: https://docs.stack.jimmycai.com/
+      params:
+        icon: archives
 
 related:
   includeNewer: true
