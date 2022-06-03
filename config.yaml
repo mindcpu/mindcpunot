@@ -61,7 +61,7 @@ params:
 
   comments:
     enabled: true
-    provider: disqus
+    provider: utterances
 
     disqusjs:
       shortname:
@@ -71,7 +71,7 @@ params:
       adminLabel:
 
     utterances:
-      repo:
+      repo: mindcpu/mindcpu.github.io
       issueTerm: pathname
       label:
 
@@ -162,7 +162,7 @@ params:
 
   colorScheme:
     # Display toggle
-    toggle: true
+    toggle: false
 
     # Available values: auto, light, dark
     default: auto
