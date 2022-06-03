@@ -33,6 +33,6 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }} #
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: main # if your main branch is `master` use that here.
+          publish_branch: gh-pages # if your main branch is `master` use that here.
           publish_dir: ./public
           force_orphan: true
