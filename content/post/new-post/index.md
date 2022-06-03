@@ -9,6 +9,7 @@ draft: false
 tags: ["Linux", "OS"]
 math: false
 toc: true
+tags: ["HUGO","GitHub Pages"]
 ---
 
 ## Front Matter 설명
