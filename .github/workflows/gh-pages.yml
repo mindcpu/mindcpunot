@@ -4,7 +4,7 @@ name: Deploy to Github Pages
 on:
   push:
     branches:
-      - main	# Set a branch name to trigger deployment
+      - main # Set a branch name to trigger deployment
 
 jobs:
   deploy:
@@ -33,6 +33,6 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }} #
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages # if your main branch is `master` use that here.
+          publish_branch: gh-pages # deploy to branch.
           publish_dir: ./public
           force_orphan: true
