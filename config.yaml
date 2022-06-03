@@ -112,8 +112,8 @@ params:
 
     # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
     cactus:
-      defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
-      serverName: "cactus.chat"
+      defaultHomeserverUrl: ""
+      serverName: ""
       siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
     giscus:
@@ -182,7 +182,7 @@ menu:
   social:
     - identifier: github
       name: GitHub
-      url: https://github.com/CaiJimmy/hugo-theme-stack
+      url: https://mindcpu.github.io
       params:
         icon: brand-github
 
@@ -226,6 +226,8 @@ markup:
     lineNos: true
     lineNumbersInTable: true
     tabWidth: 4
+
+### Document say add
 
 module:
   # uncomment line below for temporary local development of module
